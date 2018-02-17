@@ -5,3 +5,12 @@ This repository presents accessing and analyzing the historical spot pricing is 
 
 ### Upcoming
 Prediction on the Spot prices using Machine Learning!
+
+### Update
+Added the code for prediction of spot prices using random forests. 
+Cleaned the code and made a modular approach. To predict one has to just call the wrapper function with suitable arguments.
+The first argument is list of instance types you are interested.
+The second argument is the product description and the third is the region.
+The fourth and final argument is optional argument, number of days for which the price is to be predicted. By default it provides for the next seven days(1 week).
+
+If there is anything you want to talk about please reach out. If you find any issues feel free to update them on the issues of this repository.
