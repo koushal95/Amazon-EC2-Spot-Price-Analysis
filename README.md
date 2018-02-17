@@ -13,4 +13,23 @@ The first argument is list of instance types you are interested.
 The second argument is the product description and the third is the region.
 The fourth and final argument is optional argument, number of days for which the price is to be predicted. By default it provides for the next seven days(1 week).
 
+### Repo walk-through
+This repository contains a jupyter notebook that contains code and plots for,
+
+* Data fethcing using boto3
+
+* Exploratory data analysis
+
+* Data insights
+
+And the best part! The python file "spot_price_predict.py" contains the code for,
+
+* Data import
+
+* Feature extraction and engineering
+
+* Data preparation
+
+* Predictive Model built using random forests.
+
 If there is anything you want to talk about please reach out. If you find any issues feel free to update them on the issues of this repository.
